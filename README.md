@@ -38,3 +38,5 @@ In this step, you configure REST API in API Gateway which calls Lambda function 
 ## Test Web Application
 The web application is deployed using Amazon API Gateway. Let’s test it.
 1. Open Web Browser and navigate to the Invoke URL of the API.
+
+![alt text](https://github.com/atifrani/webapp6/blob/main/contactform.png?raw=true)
