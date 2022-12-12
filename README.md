@@ -20,6 +20,21 @@ You create the Lambda Function which hosts the business logic code and HTML user
 3. The function is created in no time. You will configure Lambda function using code provided with this workshop. Download the function code webapp6.zip. Click on the Upload from button and then click on the .zip file option.
 4. The Lambda function is ready. Let’s now configure API Gateway using Lambda as the backend.
 
+## Create DynamoDB Table 
+
+You create a DynamoDB table formular which is used to store data for the web application.
+
+1. The exercise is using the new UI console for DynamoDB. Goto DynamoDB console. Select Tables menu in the left and then click on the Create table button.
+![alt text](https://github.com/atifrani/webapp6/blob/main/createtable.png?raw=true)
+
+2. On the next screen, type in formular as the table name. Type in email as the partition key with data type selected as String. Keep rest of the configuration to the default and click on the Create table button.
+
+![alt text](https://github.com/atifrani/webapp6/blob/main/formular.png?raw=true)
+
+3. The table is created in no time. Next, you configure Lambda function which hosts the code and UI of the web application.
+
+![alt text](https://github.com/atifrani/webapp6/blob/main/created_table.png?raw=true)
+
 ## Create API Gateway
 In this step, you configure REST API in API Gateway which calls Lambda function as the backend. The URL of the API becomes the URL of the web application.
 
