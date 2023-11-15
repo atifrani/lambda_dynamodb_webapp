@@ -1,4 +1,4 @@
-# webapp6
+# AWS lambda with dynamodb webapp
 deploy web application with aws lambda
 
 ## Create IAM Role
